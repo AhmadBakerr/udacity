@@ -40,7 +40,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Blog Posts Section */
 .blog-posts {
     padding: 20px;
     text-align: center;
@@ -88,7 +87,6 @@ nav ul li a {
     background-color: #005bb5;
 }
 
-/* Blog Post Section */
 .blog-post {
     padding: 20px;
 }
@@ -128,7 +126,6 @@ nav ul li a {
     color: #666;
 }
 
-/* Social Sharing */
 .social-sharing a {
     display: inline-block;
     margin-right: 10px;
@@ -143,7 +140,6 @@ nav ul li a {
     background: #005bb5;
 }
 
-/* Footer */
 footer {
     background-color: #0073e6;
     color: white;
