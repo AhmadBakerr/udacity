@@ -65,3 +65,56 @@ footer {
     width: 100%;
     bottom: 0;
 }
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .blog-posts {
+        grid-template-columns: 1fr; 
+        gap: 1.5rem; 
+    }
+
+    .post-card img {
+        height: 150px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 1rem; 
+    }
+
+    .blog-posts {
+        padding: 1rem;
+    }
+
+    .post-card {
+        padding: 0.5rem;
+    }
+
+    .post-info h2 {
+        font-size: 1.2rem; 
+    }
+
+    .post-info button {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

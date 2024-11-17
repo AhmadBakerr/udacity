@@ -3,75 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Post Title</title>
+    <title>Blog Homepage</title>
     <link rel="stylesheet" href="css/home.css">
-    
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="design-system.html">Design System</a></li>
-                <li><a href="post.html">Post</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <article>
-            <header>
-                <h1>Blog Post Title</h1>
-                <div class="author-info">
-                    <img src="assets/assetsimagespost1.jpg" alt="Author Avatar">
-                    <div>
-                        <p>Author Name</p>
-                        <p>Title at Company/School</p>
-                        <p>Short bio...</p>
-                        
-                    </div>
+        <section class="blog-posts">
+            <h1>Latest Posts</h1>
+            <div class="card">
+                <img src="assets/image1.png" alt="Post Image">
+                <div class="card-content">
+                    <h2>Blog Post Title 1</h2>
+                    <p>A short description of the post content...</p>
+                    <a href="post.html" class="read-more-btn">Read More</a>
                 </div>
-            </header>
-            <section class="content">
-                <img src="assets/assetsimagespost1.jpg" alt="Post Image">
-                <p>Your blog post content goes here...</p>
-            </section>
-            
-            <section class="content">
-                <p>Your blog post content goes here...</p>
-            </section>
-            <footer class="social-sharing">
-                <a href="#">Twitter</a>
-                <a href="#">Facebook</a>
-                <a href="#">LinkedIn</a>
-            </footer>
-        </article>
-        
-        <section class="related-articles">
-            <h2>Related Articles</h2>
-            <ul>
-                <li><a href="post.html">Related Post 1</a></li>
-                <li><a href="post.html">Related Post 2</a></li>
-                <li><a href="post.html">Related Post 3</a></li>
-            </ul>
+            </div>
+            <div class="card">
+                <img src="assets/image2.png" alt="Post Image">
+                <div class="card-content">
+                    <h2>Blog Post Title 2</h2>
+                    <p>A short description of the post content...</p>
+                    <a href="post.html" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-post">
+            <article>
+                <header>
+                    <h1>Blog Post Title</h1>
+                    <div class="author-info">
+                        <img src="assets/avatar.png" alt="Author Avatar">
+                        <div>
+                            <p><strong>Author Name</strong></p>
+                            <p>Software Engineer at Tech Company</p>
+                            <p>Enthusiastic writer and tech lover.</p>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="content">
+                    <figure>
+                        <img src="assets/post-image.png" alt="Post Image">
+                        <figcaption>A breathtaking sunset over the mountains.</figcaption>
+                    </figure>
+                    <p>This is the detailed content of the blog post...</p>
+                </section>
+
+             
+                <footer>
+                    <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="assets/facebook.png" alt="Facebook Logo"> Facebook
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="assets/insta.png" alt="Instagram Logo"> Instagram
+                        </a>
+                        <a href="https://linkedin.com" target="_blank">
+                            <img src="assets/link.png" alt="LinkedIn Logo"> LinkedIn
+                        </a>
+                    </div>
+                </footer>
+            </article>
         </section>
     </main>
+
     
-        <div class="social-sharing-footer">
-            <a href="https://twitter.com" target="_blank">
-                <img src="assets/twitter-icon.png" alt="Twitter Icon"> Twitter
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="assets/facebook-icon.png" alt="Facebook Icon"> Facebook
-            </a>
-            <a href="https://linkedin.com" target="_blank">
-                <img src="assets/linkedin-icon.png" alt="LinkedIn Icon"> LinkedIn
-            </a>
-        </div>
-   
-    
-    <footer>
-        <p>&copy; 2024 My Personal Blog</p>
-    </footer>
 </body>
 </html>

@@ -1,83 +1,3 @@
-.author-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.author-info img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-right: 1rem;
-}
-
-.author-info div p {
-    margin: 0.2rem 0;
-}
-
-.social-sharing a {
-    margin-right: 1rem;
-    color: #fff;
-    background-color: #555;
-    padding: 0.5rem;
-    border-radius: 3px;
-}
-
-.social-sharing a:hover {
-    background-color: #333;
-}
-
-.related-articles {
-    margin-top: 2rem;
-}
-
-.related-articles ul {
-    list-style: none;
-}
-
-.related-articles ul li a {
-    display: block;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.related-articles ul li a:hover {
-    background-color: #f9f9f9;
-}
-.content img {
-    width: 300px; 
-    height: 300px;
-    object-fit: cover; 
-    border-radius: 10px; 
-}
-.social-sharing-footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.social-sharing-footer a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    gap: 5px;
-    transition: color 0.3s ease;
-}
-
-.social-sharing-footer a:hover {
-    color: #0077b5; 
-}
-
-.social-sharing-footer img {
-    width: 24px;
-    height: 24px;
-}
-
 @media (max-width: 768px) {
     .social-sharing-footer {
         grid-template-columns: repeat(2, 1fr); 
@@ -89,4 +9,172 @@
         grid-template-columns: 1fr; 
         gap: 10px;
     }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #0073e6;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-content h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.read-more-btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.read-more-btn:hover {
+    background-color: #005bb5;
+}
+
+/* Blog Post Section */
+.blog-post {
+    padding: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author-info img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.author-info div p {
+    margin: 5px 0;
+}
+
+.content figure {
+    margin: 0;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Social Sharing */
+.social-sharing a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-sharing a:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+footer .social-links a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover {
+    opacity: 0.8;
 }
