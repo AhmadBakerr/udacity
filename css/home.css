@@ -1,8 +1,5 @@
-@import url('reset.css');      
 @import url('homepage.css');  
 @import url('postpage.css');  
-@import url('footer.css');    
-@import url('header.css');    
 * {
     margin: 0;
     padding: 0;
